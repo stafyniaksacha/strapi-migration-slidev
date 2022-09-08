@@ -1,0 +1,21 @@
+{
+  "name": "slidev",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "preview": "http-server dist -s --proxy http://localhost:5000\\? -p 5000",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-purplin": "^1.1.0"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "^1.1.16",
+    "@iconify-json/logos": "^1.1.15",
+    "http-server": "^14.1.1"
+  }
+}
